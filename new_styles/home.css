@@ -1,0 +1,202 @@
+:root{
+    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
+    --global-button_color_pink-background-color:#E53167;
+    --global-button_color-color:#FFFFFF;
+    --global-blue_color-color:#3480E3;
+}
+
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+  font-family: var(--global-font-family);
+}
+
+#font18{
+	font-size: 18px;
+}
+
+#space1{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+#space{
+  margin-top: 3%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#font20{
+    font-size: 20px;
+}
+
+
+#space2{
+	padding-bottom: 40px;
+	font-size: 35px;
+	letter-spacing: 0.044em;
+}
+
+#nav-item{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size:17px;
+	font-weight: 10px;
+}
+
+
+@media(max-width: 1024px){
+
+#nav-item{
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	font-size:13px!important;
+	font-weight: 10px!important;
+}
+
+}
+
+
+#nav-pos{
+	top: 0px;
+	left: 0px;
+}
+
+@media(max-width: 380px)
+{
+    #clublogo{
+        width: 23%;
+
+    }
+
+    #nav-pos{
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+
+    .navbar{
+      padding: 0px!important;
+    }
+
+    #cclogoright{
+      letter-spacing: 0px!important;
+    }
+}
+
+
+
+.wrapper{
+	overflow: hidden; 
+	background-image: url(../media/images_homepage/home.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inner-wrapper{
+  padding-top: 2%;
+  margin-right: 8%;
+  margin-left: 10%; 
+}
+
+
+.card-img-top{
+  max-height: 181px;
+}
+.card-dim{
+	max-height: 27em;
+	max-width: 18em;
+  margin: auto;
+}
+
+.row-me{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .image1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inner-wrapper{
+  	margin: 0px; 
+  }
+
+   .col-sm-auto{
+   	padding-top: 20px;
+   }
+
+   .col-lg-5{
+   	padding-top: 30px;
+   }
+
+   .col-md-5{
+   	padding-top: 30px;
+   }
+ 
+}
+
+
+#navbar-content{
+	justify-content: flex-end;
+	margin-top: 0!important;
+}
+
+
+#iitglogo{
+	text-align: center;
+}
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+#activenavtab{
+	border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+}
+
+button{
+	border-width:0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: var(--global-button_color_pink-background-color);
+    color: var(--global-button_color-color);
+    text-align: center;
+    width:wrap-content;
+    padding:5px 25px;	
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:5px 20px;	
+}
+
+
+
+.card{
+	border-width:0px;
+	border-radius:30px;
+	box-shadow: 0 0 5px 0.2px #3480E3;
+
+}
+

@@ -1,0 +1,165 @@
+:root{
+    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
+    --global-button_color_pink-background-color:#E53167;
+    --global-button_color-color:#FFFFFF;
+    --global-border_color-border-color:#AFBED3;
+     --global-blue_color-color:#3480e3;
+}
+
+
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+  font-family: var(--global-font-family);
+}
+
+button{
+	border-width:0px;
+}
+
+.wrapper{
+    background-image: url(../media/images_blogs/Blog.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-wrapper{
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; 
+}
+
+
+#first_blog{
+   margin-top: 17%;
+   margin-bottom: 4%;
+
+}
+
+#second_blog{
+    margin-top: 4%;
+   margin-bottom: 4%;
+}
+
+.image-container{
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.blog img{
+    border-radius: 25px;
+}
+
+.blog{
+    box-shadow: 0 0 10px 0.2px #3480E3;
+    border-radius: 25px;
+    margin: 2%;
+}
+
+#blogs{
+    text-align: -webkit-center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+#brief{
+    font-size: 18px;
+    font-weight: 500;
+    color: var( --global-blue_color-color);
+    letter-spacing: 0.044em;
+    text-align: left;
+    padding-left: 11%;
+    padding-top: 3%;
+}
+
+#info{
+    color: black;
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+
+
+#button1{
+    border-radius: 20px;
+    background-color: #E53167;
+    color: #FFFFFF;
+    text-align: center;
+    width:wrap-content;
+    padding:5px 25px;	
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:5px 20px;	
+}
+
+
+.row-me{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+#cclogoright{
+color:var(--global-blue_color-color);  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+
+#navbar-content{
+    justify-content: flex-end;
+    margin-top: 0!important;
+}
+
+#nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:17px;
+    font-weight: 10px;
+}
+
+#space{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#font18{
+    font-size: 18px;
+}
+
+#font20{
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 430px)
+{
+    #clublogo{
+        width:23%;
+    }
+
+    .navbar{
+      padding: 0px!important;
+    }
+
+    #nav-pos{
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+
+     #cclogoright{
+      letter-spacing: 0px!important;
+    }
+}
+

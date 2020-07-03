@@ -1,0 +1,219 @@
+:root{
+    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
+    --global-button_color_pink-background-color:#E53167;
+    --global-button_color-color:#FFFFFF;
+    --global-border_color-border-color:#AFBED3;
+
+}
+
+
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+  font-family: var(--global-font-family);
+}
+
+button{
+	border-width:0px;
+}
+.col-md-auto{
+    margin:3%; 
+    
+}
+.wrapper{
+    overflow: hidden;
+   background-image: url(../media/images_projects/project.svg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-wrapper{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+@media(max-width: 380px)
+{
+    .inner-wrapper{
+    margin: 0px; 
+  }
+  .col{
+    height: 100%;
+  }
+     #clublogo{
+        width: 23%;
+
+    }
+
+    #nav-pos{
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+
+    #navbar{
+      padding: 0px!important;
+    }
+
+    #cclogoright{
+      letter-spacing: 0px!important;
+    }
+}
+
+@media(max-width: 430px){
+    .inner-wrapper{
+    margin: 0px; 
+  }
+    #nav-pos{
+        padding: 0px!important;
+    }
+
+    #blogs{
+        margin-top: 40px!important;
+    }
+
+    #first_blog{
+        border-bottom: solid;
+        border-color: var(--global-border_color-border-color);
+        border-right: hidden;
+
+
+    }
+
+    #second_blog{
+        border-top: solid;
+        border-color: var(--global-border_color-border-color);
+        border-left: hidden;
+    }
+
+    #cclogoright{
+        font-size: 25px;
+    }
+}
+
+
+
+
+#image{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#blogs{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#discription{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+#info{
+
+    margin-top: 20px;
+}
+
+
+#button1{
+    border-radius: 20px;
+    background-color: #E53167;
+    color: #FFFFFF;
+    text-align: center;
+    width:wrap-content;
+    padding:5px 25px;	
+}
+#button2{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: grey;
+    text-align: center;
+    width:wrap-content;
+    padding:5px 20px;	
+}
+
+#activenavtab{
+	border-radius: 20px;
+    background-color: #E53167;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#cclogoright{
+color:#3480E3;  
+opacity:82%;
+font-size: 28px;
+letter-spacing: 0.07em; 
+}
+#navbar-content{
+	justify-content: flex-end;
+	margin-top: 0!important;
+}
+
+#nav-pos{
+	top: 0px;
+	left: 0px;
+}
+#font18{
+	font-size: 18px;
+}
+
+.row-me{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#Project{
+    margin:2%;
+}
+
+.box{
+ box-shadow: 0 0 10px 0.2px #3480E3;
+    border-radius: 25px;
+    max-width: 80%;
+    height: 100%;
+    
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:17px;
+    font-weight: 10px;
+}
+.card{
+    border:0px;
+}
+
+@media(max-width: 1024px){
+
+#nav-item{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    font-size:13px!important;
+    font-weight: 10px!important;
+}
+.inner-wrapper{
+    margin:0px;
+}
+}
+
+
+
+@media(min-width: 1440px){
+#blogs{
+        margin-top: 30px!important;
+}
+
+}

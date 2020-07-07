@@ -1,196 +1,182 @@
-
-:root{
-    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
-    --global-button_color_pink-background-color:#E53167;
-    --global-button_color-color:#FFFFFF;
-    --global-border_color-border-color:#AFBED3;
-
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-border_color-border-color: #afbed3;
+  --global-blue_color-color: #3480e3;
 }
 
-html{
-	padding: 0px;
-	margin: 0px;
+html {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
+body {
   font-family: var(--global-font-family);
 }
-
-.row-me{
-	display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
 }
 
-.col-sm-auto{
-    margin: 20px;
-
-  }
-
-
-
-.wrapper{
-	overflow: hidden; 
-	background-image: url(../media/images_events/events.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.inner-wrapper{
-	margin-top: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
+.col-sm-auto {
+  margin: 20px;
 }
 
-#button1{
-    border-radius: 20px;
-    background-color: var(--global-button_color_pink-background-color);
-    color: var(--global-button_color-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 25px;	
-}
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px;	
+.wrapper {
+  overflow: hidden;
+  background-image: url(../media/images_events/events.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#button3{
-    border-radius: 20px;
-    background-color: white;
-    color: var(--global-button_color_pink-background-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px; 
-    box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
-   
-}
-.box{
- box-shadow: 0 0 10px 0.2px #3480E3;
-    border-radius: 25px;
-    height: 100%;
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-#nav-pos{
-	top: 0px;
-	left: 0px;
+/*navbar*/
+
+#navbar-content {
+  justify-content: flex-end;
 }
 
-#navbar-content{
-	justify-content: flex-end;
-	margin-top: 0!important;
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
 }
 
-#nav-item{
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size:17px;
-	font-weight: 10px;
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
 }
 
-#cclogoright{
-color:#3480E3;  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
+/*nav*/
+
+/*button*/
+
+button {
+  border-width: 0px;
 }
 
-.table-bordered{
-	border:0px;
-	margin: auto;
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
+}
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
+}
+
+#button3 {
+  border-radius: 20px;
+  background-color: white;
+  color: var(--global-button_color_pink-background-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 5px 20px;
+  box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
+}
+/*button end*/
+
+.box {
+  box-shadow: 0 0 10px 0.2px #3480e3;
+  border-radius: 25px;
+  height: 100%;
+}
+
+#nav-pos {
+  top: 0px;
+  left: 0px;
+}
+
+.table-bordered {
+  border: 0px;
+  margin: auto;
 }
 
 .table-bordered td {
-    border: 2px solid grey;
-    padding-left: 35px;
+  border: 2px solid grey;
+  padding-left: 35px;
 }
 
-.activeyear{
-    border-top:0px;
-     color:grey;
+.activeyear {
+  border-top: 0px;
+  color: grey;
 }
 
-#one{
-	font-size: 30px;
-    padding-bottom: 30px;
-    border-top: 0px;
-    border-bottom: 0px;
-	border-right: 0px;
+#one {
+  font-size: 30px;
+  padding-bottom: 30px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
 }
-#two{
-	padding-top: 10px;
-	border-right: 0px;
-	text-align: right;
-
-}
-
-#year{
-	padding-left:150px;
-	padding-bottom: 30px;
-    padding-top: 50px;
+#two {
+  padding-top: 10px;
+  border-right: 0px;
+  text-align: right;
 }
 
-
-.card{
-	border-width:0px;
-
-	margin: auto;
-
+#year {
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
- .card-dim{
-	max-width: 18em;
-  }
+.card {
+  border-width: 0px;
 
-.card-subtitle{
-    margin-top: 26px;
-    margin-bottom: 20px!important;
-}  
-
-#font18{
-	font-size: 18px;
+  margin: auto;
 }
 
-#space{
-	padding-top: 50px;
-	padding-bottom: 50px;
+.card-dim {
+  max-width: 18em;
 }
 
+.card-subtitle {
+  margin-top: 26px;
+  margin-bottom: 20px !important;
+}
 
-#lowerlink{
-  color:black;
+#font18 {
+  font-size: 18px;
+}
+
+#space {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#lowerlink {
+  color: black;
   font-weight: bold;
   text-decoration: underline;
 }
-
-@media(max-width: 380px)
-{
-    #clublogo{
-        width: 23%;
-
-    }
-
-    #nav-pos{
-        padding-left: 5px!important;
-        padding-right: 5px!important;
-    }
-
-    #navbar{
-      padding: 0px!important;
-    }
-
-    #cclogoright{
-      letter-spacing: 0px!important;
-    }
-}
-
-
-
 
 @media only screen and (max-width: 768px) {
   .image1 {
@@ -199,31 +185,21 @@ letter-spacing: 0.07em;
     padding-top: 30px;
   }
 
-  #year{
+  #year {
     padding-top: 30px;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    text-align: center; 
-
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center;
   }
 
-  #eventsyear{
+  #eventsyear {
     margin-top: 30px;
   }
-  .inner-wrapper{
-  	margin: 0px; 
+}
+
+@media (max-width: 435px) {
+  .inner-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
   }
-
 }
-
-@media(max-width: 1024px){
-
-#nav-item{
-	padding-left: 0px!important;
-	padding-right: 0px!important;
-	font-size:13px!important;
-	font-weight: 10px!important;
-}
-}
-
-

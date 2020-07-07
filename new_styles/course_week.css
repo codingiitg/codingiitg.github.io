@@ -2,7 +2,6 @@
   --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
   --global-button_color_pink-background-color: #e53167;
   --global-button_color-color: #ffffff;
-  --global-border_color-border-color: #afbed3;
   --global-blue_color-color: #3480e3;
 }
 
@@ -22,24 +21,9 @@ footer {
   padding: 0.2%;
   font-size: small;
 }
-.row-me {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-#blogs {
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  overflow-wrap: break-word;
-}
-
 .wrapper {
   overflow: hidden;
-  background-image: url(../media/images_events/events.svg);
+  background-image: url(../media/images_courses/courses.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,9 +34,11 @@ footer {
   margin-left: 5%;
 }
 
-#margin {
-  margin-top: 8%;
-  margin-bottom: 8%;
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /*navbar*/
@@ -100,36 +86,13 @@ button {
   padding: 6px 3px;
 }
 
-#button3 {
-  border-radius: 20px;
-  background-color: white;
-  color: var(--global-button_color_pink-background-color);
-  text-align: center;
-  width: wrap-content;
-  padding: 5px 20px;
-  box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
+.btn {
+  display: table-cell;
 }
+
 /*button end*/
 
-.heading {
-  color: var(--global-blue_color-color);
-  font-size: 38px;
-  font-weight: 500;
-  letter-spacing: 0.07em;
-  margin-top: 3%;
-  text-align: center;
-}
-
-#lowerlink {
-  color: black;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-#space {
-  padding-top: 50px;
-}
-
+/*font*/
 #font18 {
   font-size: 18px;
 }
@@ -138,14 +101,74 @@ button {
   font-size: 20px;
 }
 
-.image1 {
-  border-radius: 25px;
-  width: 100%;
+/*endfont*/
+
+/*couses*/
+
+#weeks {
+  text-align: center;
+  overflow-wrap: normal;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #3480e3;
+  overflow: hidden;
 }
+
+.week-nav {
+  padding: 6%;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  border-bottom: solid;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.week-nav:hover {
+  background-color: #5897e8;
+}
+
+#space {
+  padding: 4% 0%;
+}
+
+#coursename {
+  font-size: 30px;
+  padding: 3%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+thead {
+  background-color: var(--global-blue_color-color);
+  color: white;
+}
+
+.table thead th {
+  text-align: center;
+  vertical-align: middle;
+}
+/*courses end*/
+
+/*@media*/
 
 @media (max-width: 435px) {
   .inner-wrapper {
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .wrapper {
+    overflow: scroll;
+  }
+
+  @media (max-width: 768px) {
+    #one {
+      margin: 20%;
+    }
   }
 }

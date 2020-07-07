@@ -2,7 +2,6 @@
   --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
   --global-button_color_pink-background-color: #e53167;
   --global-button_color-color: #ffffff;
-  --global-border_color-border-color: #afbed3;
   --global-blue_color-color: #3480e3;
 }
 
@@ -22,9 +21,9 @@ footer {
   padding: 0.2%;
   font-size: small;
 }
-
 .wrapper {
-  background-image: url(../media/images_blogs/Blog.svg);
+  overflow: hidden;
+  background-image: url(../media/images_courses/courses.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -35,53 +34,6 @@ footer {
   margin-left: 5%;
 }
 
-#first_blog {
-  margin-top: 17%;
-  margin-bottom: 4%;
-}
-
-#second_blog {
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-
-.image-container {
-  padding-left: 11%;
-  padding-right: 11%;
-}
-
-.blog img {
-  border-radius: 25px;
-}
-
-.blog {
-  box-shadow: 0 0 10px 0.2px #3480e3;
-  border-radius: 25px;
-  margin: 2%;
-}
-
-#blogs {
-  text-align: -webkit-center;
-  margin-top: 4%;
-  margin-bottom: 3%;
-}
-
-#brief {
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--global-blue_color-color);
-  letter-spacing: 0.044em;
-  text-align: left;
-  padding-left: 11%;
-  padding-top: 3%;
-}
-
-#info {
-  color: black;
-  letter-spacing: 0px;
-  font-size: 15px;
-}
-
 .row-me {
   display: -ms-flexbox;
   display: flex;
@@ -89,18 +41,27 @@ footer {
   flex-wrap: wrap;
 }
 
-#space {
-  padding-top: 50px;
-  padding-bottom: 50px;
+/*navbar*/
+
+#navbar-content {
+  justify-content: flex-end;
 }
 
-#font18 {
-  font-size: 18px;
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
 }
 
-#font20 {
-  font-size: 20px;
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
 }
+
+/*nav*/
 
 /*button*/
 
@@ -125,29 +86,53 @@ button {
   padding: 6px 3px;
 }
 
+.card-button {
+  padding-top: 2%;
+  margin-bottom: 5%;
+  display: inline-block;
+}
+
 /*button end*/
 
-/*navbar*/
-
-#navbar-content {
-  justify-content: flex-end;
+/*font*/
+#font18 {
+  font-size: 18px;
 }
 
-.nav-item {
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: 17px;
-  font-weight: 10px;
+#font20 {
+  font-size: 20px;
 }
 
-#cclogoright {
-  color: var(--global-blue_color-color);
-  opacity: 82%;
-  font-size: 28px;
-  letter-spacing: 0.07em;
+/*endfont*/
+
+/*couses*/
+
+.card {
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 15px #3480e3;
 }
 
-/*nav*/
+#courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 0%;
+}
+
+.card {
+  display: inline-block;
+  margin: 3%;
+}
+
+#space {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+/*courses end*/
+
+/*@media*/
 
 @media (max-width: 435px) {
   .inner-wrapper {

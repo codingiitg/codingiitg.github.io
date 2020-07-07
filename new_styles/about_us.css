@@ -1,194 +1,193 @@
-:root{
-    --global-font-family:'Roboto', Helvetica, Arial, sans-serif;
-    --global-button_color_pink-background-color:#E53167;
-    --global-button_color-color:#FFFFFF;
-    --global-blue_color-color:#3480e3;
-    --global-name_color-color:#657783;
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-blue_color-color: #3480e3;
+  --global-name_color-color: #657783;
 }
 
-html{
-	padding: 0px;
-	margin: 0px;
+html {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
+body {
   font-family: var(--global-font-family);
 }
 
-.wrapper{
-	background-image: url(../media/images_homepage/home.svg);
-	background-repeat: no-repeat;
-	background-size: cover; 
-
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
 }
 
-
-.inner-wrapper{
-	padding-top: 2%;
-	margin-right: 5%;
-	margin-left: 5%; 
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-
-.row-me{
-	display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.heading {
+  color: var(--global-blue_color-color);
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  margin-top: 3%;
 }
 
-.heading{
-	color: var( --global-blue_color-color);
-	font-size: 38px;
-	font-weight: 500;
-	letter-spacing: 0.07em;
-	margin-top: 3%;
+.sub-heading {
+  color: var(--global-blue_color-color) !important;
+  font-size: 35px !important;
+  font-weight: 500;
+  letter-spacing: 0.004em !important;
 }
 
-.sub-heading{
-	color: var( --global-blue_color-color)!important;
-	font-size: 35px!important;
-	font-weight: 500;
-	letter-spacing: 0.004em!important;
+#intro p {
+  font-size: 15px;
+  letter-spacing: 0.07em;
+  color: var(--global-name_color-color);
 }
 
-#intro p{
-	font-size: 15px;
-	letter-spacing: 0.07em;
-	color: var(--global-name_color-color);
+#team {
+  text-align: center;
 }
 
-#team{
-	text-align: center;
+.team-wrapper {
+  margin: 5%;
+  box-shadow: 0 0 10px 0.2px #3480e3;
+  border-radius: 25px;
 }
 
-.team-wrapper{
-	margin: 5%;
-	box-shadow: 0 0 10px 0.2px #3480E3;
-	border-radius: 25px;
+.team-wrapper .row-me {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
-.team-wrapper .row-me{
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 5%
+.dp {
+  width: 200px;
+  height: 210px;
+  margin: auto;
 }
 
-.dp{
-	width: 200px;
-	height: 210px;
-	margin: auto;
+.dp img {
+  border-radius: 25px;
 }
 
-.dp img{
-	border-radius: 25px;
+#brief {
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  color: var(--global-name_color-color);
 }
 
-#brief{
-	font-size: 16px;
-	letter-spacing: 0.07em;
-	color: var(--global-name_color-color);
+#name {
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 1rem;
 }
 
-#name{
-	font-weight: 500;
-	margin-bottom: 0px;
-    margin-top: 1rem;
+#designation {
+  font-weight: 300;
 }
 
-#designation{
-	font-weight: 300;
+.wrapper {
+  overflow: hidden;
+  background-image: url(../media/images_homepage/home.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
-
-button{
-	border-width:0px;
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-#button1{
-    border-radius: 20px;
-    background-color: var(--global-button_color_pink-background-color);
-    color: var(--global-button_color-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 25px;	
+/*navbar*/
+
+#navbar-content {
+  justify-content: flex-end;
 }
 
-#button2{
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    color: grey;
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px;	
-}
-#button3{
-    border-radius: 20px;
-    background-color: white;
-    color: var(--global-button_color_pink-background-color);
-    text-align: center;
-    width:wrap-content;
-    padding:5px 20px; 
-    box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
-   
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
 }
 
-#cclogoright{
-color:var(--global-blue_color-color);  
-opacity:82%;
-font-size: 28px;
-letter-spacing: 0.07em; 
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
 }
 
-#navbar-content{
-	justify-content: flex-end;
-	margin-top: 0!important;
+/*nav*/
+
+/*button*/
+
+button {
+  border-width: 0px;
 }
 
-#nav-item{
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size:17px;
-	font-weight: 10px;
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
+}
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
 }
 
-#space{
-	padding-top: 200px;
-	padding-bottom: 50px;
+#button3 {
+  border-radius: 20px;
+  background-color: white;
+  color: var(--global-button_color_pink-background-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 5px 20px;
+  box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
 }
 
-#font18{
-    font-size: 18px;
+/*button end*/
+
+#space {
+  padding-top: 200px;
+  padding-bottom: 50px;
 }
 
-#font20{
-    font-size: 20px;
+#font18 {
+  font-size: 18px;
 }
 
-@media (max-width: 430px){
-	.dp{
-		width: 100%!important;
-		height: 100%!important;
-	}
+#font20 {
+  font-size: 20px;
+}
 
-	#clublogo{
-		width:23%;
-	}
+@media (max-width: 430px) {
+  .dp {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
 
-	.navbar{
-      padding: 0px!important;
-    }
-
-    #nav-pos{
-        padding-left: 5px!important;
-        padding-right: 5px!important;
-    }
-
-     #cclogoright{
-      letter-spacing: 0px!important;
-    }
+@media (max-width: 435px) {
+  .inner-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

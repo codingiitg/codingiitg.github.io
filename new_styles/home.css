@@ -43,7 +43,7 @@ body {
 }
 
 #space2 {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
   font-size: 35px;
   letter-spacing: 0.044em;
 }
@@ -163,6 +163,13 @@ button {
   letter-spacing: 0.07em;
 }
 
+.iitg{
+	font-size: 21px;
+	color: var(--global-blue_color-color);
+  	opacity: 82%;
+  	letter-spacing: 0.07em;
+}
+
 /*nav*/
 
 @media (max-width: 435px) {
@@ -170,4 +177,40 @@ button {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  #space2{
+  	padding-top: 30px!important;
+  	padding-bottom: 5px!important;
+  }
+}
+
+@media (max-width: 420px){
+	#clublogo{
+		width: 70%; 
+	}
+	#cclogoright {
+  		font-size: 20px;
+  		margin-left: -20%;
+}
+
+	.iitg{
+		font-size: 15px;
+		margin-left: -20%;
+	}
+
+}
+
+@media (max-width: 325px){
+	#clublogo{
+		width: 70%; 
+	}
+	#cclogoright {
+  		font-size: 16px;
+  		margin-left: -20%;
+}
+	.iitg{
+		font-size: 13px!important;
+		margin-left: -20%;
+	}
+
 }

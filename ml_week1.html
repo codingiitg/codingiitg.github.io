@@ -1,1 +1,320 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <title>Coding club</title>
+
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+  />
+
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="./new_styles/course_week.css"
+  />
+
+  <link rel="icon" type="image/jpg" href="./media/images_homepage/fav.jpg" />
+
+  <!-- scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="inner-wrapper">
+      <!-- nav start -->
+      <div class="container-fluid" id="nav-pos">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a href="./index.html" >
+            <img
+            id="clublogo"
+            src="./media/images_homepage/fav1.png"
+            alt=".."
+            />
+          </a>
+          <div>
+            <h3 id="cclogoright">Coding Club</h3>
+            <h3 id="cclogoright" style="font-size: 21px;">IIT Guwahati</h3>
+          </div>
+
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-content"
+          aria-controls="navbar-content"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html" id="button2">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_us.html" id="button2"
+              >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html" id="button2"
+              >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blogs.html" id="button2"
+              >Blogs <span class="sr-only">(current)</span></a
+              >
+            </li>
+                <!-- <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="./ongoing_projects.html"
+                    id="button2"
+                    >Projects*</a
+                  >
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="./courses.html" id="button1"
+                  >Courses</a
+                  >
+                </li>
+
+                <!-- <li class="nav-item">
+					        	<a class="nav-link" href="./login.html" id="button2" style="color:var(--global-button_color_pink-background-color); font-weight: bold;">Login/Sign Up</a>
+					        </li> -->
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <!-- nav end -->
+
+          <!-- courses -->
+          <div id="courses" class="container-fluid">
+            <div class="row-me justify-content-around" id="coursename">
+              Fast Track to ML
+            </div>
+            <div class="row-me justify-content-around">
+              <div class="col-lg-2 align-self-center" id="one">
+                <div id="weeks" class="card">
+                  <button
+                  class="week-nav"
+                  onclick="window.location.href = './ml_week0.html'" 
+                  >
+                  Week 0
+                </button>
+                <button
+                  class="week-nav"
+                  onclick="window.location.href = './ml_week1.html'" style="background-color: var(--global-blue_color-color); color:white;
+                  "
+                  >
+                  Week 1
+                </button>
+                <button class="week-nav" onclick="window.location.href = '#'">
+                  Week 2
+                </button>
+                <button class="week-nav" onclick="window.location.href = '#'">
+                  Week 3
+                </button>
+                <button class="week-nav" onclick="window.location.href = '#'">
+                  Week 4
+                </button>
+                <button class="week-nav" onclick="window.location.href = '#'">
+                  Week 5
+                </button>                <button class="week-nav" onclick="window.location.href = '#'">
+                  Week 6
+                </button>                <button class="week-nav" style="border-bottom: none;"onclick="window.location.href = '#'">
+                  Week 7
+                </button>
+              </div>
+            </div>
+
+            <div class="col-lg-8" id="two">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Week 0</th>
+                    <th scope="col">Details</th>
+                    <th scope="col">Task 1</th>
+                    <th scope="col">Task 2</th>
+                    <th scope="col">Task 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Day 1<br> Tensorflow</th>
+                    <td>
+                      <br>
+
+                      Tensorflow Installation and Tutorial<br>
+
+                    </td>
+                    <td ><a href="https://www.tutorialspoint.com/tensorflow/tensorflow_installation.htm" target="=_blank">Installation</a></td>
+                    <td ><a href="https://adventuresinmachinelearning.com/python-tensorflow-tutorial/" target="=_blank">Tutorial</a></td>
+                    <td ><a href="#"></a></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Day 2<br> Deep Learning</th>
+                    <td>
+                      Introduction to deeplearning<br>
+
+                    </td>
+                    <td ><a href="https://www.youtube.com/watch?v=6M5VXKLf4D4" target="_blank">Introduction to deep learning</a></td>
+                    <td ><a href="https://www.youtube.com/watch?v=bfmFfD2RIcg" target="_blank">Introduction to Neural Networks I</a></td>
+                    <td ><a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning" target="_blank">Introduction to Neural Networks II (week 3)</a></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Day 3<br> Deep Learning</th>
+                    <td>
+                      Neural Networks<br>
+
+                    </td>
+                    <td ><a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning" target="_blank">Neural Networks III (week 4)</a></td>
+                   <td ><a href="https://towardsdatascience.com/forward-propagation-in-neural-networks-simplified-math-and-code-version-bbcfef6f9250" target="_blank">Forward propagation in Neural Networks</a></td>
+                    <td ><a href="#"></a></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Day 4<br> Deep Learning</th>
+                    <td>
+
+                      Deep neural networks <br>
+
+
+                      </td>
+                      <td ><a href="https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning" target="_blank">week 1</a></td>
+                      <td ><a href="#"></a></td>
+                      <td ><a href="#"></a></td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">Day 5 <br> Deep Learning</th>
+                      <td>
+                        Deep neural networks 
+                      </td>
+                      <td ><a href="https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning" target="_blank">Week 2</a></td>
+                      <td ><a href="#"></a></td>
+                      <td ><a href="#"></a></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Day 6 <br>  Deep Learning</th>
+                      <td>
+                       Neural Networks implementation on a structured dataset using Keras
+                     </td>
+                     <td ><a href="https://www.freecodecamp.org/news/how-to-build-your-first-neural-network-to-predict-house-prices-with-keras-f8db83049159/" target="_blank">Introduction</a></td>
+                     <td ><a href="#" >Implementation on dataset</a></td>
+                     <td ><a href="#"></a></td>
+                   </tr>
+                   <tr>
+                    <th scope="row">Day 7<br> Assignment</th>
+                    <td>
+                     Assignment
+                   </td>
+                   <td ><a href="#"></a></td>
+                   <td ><a href="#"></a></td>
+                   <td ><a href="#"></a></td>
+                 </tr>
+                 
+               </tbody>
+             </table>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- end -->
+
+     <!-- footer -->
+
+     <div class="container-fluid" id="space">
+      <div class="row-me justify-content-center">
+        <div class="col-lg-4">
+          <div>
+            <p id="font18"><strong>Contacts :</strong></p>
+          </div>
+          <div>
+            <p>
+              E-mail:
+              <a href="#" style="color: black; text-decoration: none;"
+              >codingclubiitg@gmail.com</a
+              >
+            </p>
+          </div>
+          <div>
+            <h6 id="font20"><strong>Address :</strong></h6>
+            <p>
+              IIT Guwahati<br />
+              Near Doul Gobinda Road, Amingaon<br />
+              North Guwahati, Guwahati,<br />
+              Assam-781039
+            </p>
+          </div>
+        </div>
+        <div
+        class="col-lg-auto align-self-center"
+        style="text-align: center;"
+        >
+        <h5 style="margin: 15px;"><strong>Follow us on</strong></h5>
+        <ul style="padding-left: initial;">
+          <li style="display: inline; padding: 10px;">
+            <a
+            href="https://www.facebook.com/codingclubiitg/"
+            target="_blank"
+            >
+            <img src="./media/images_homepage/icons-3.png" alt=".." />
+          </a>
+        </li>
+        <li style="display: inline; padding: 10px;">
+          <a href="#" target="_blank">
+            <img src="./media/images_homepage/icons-1.png" alt=".." />
+          </a>
+        </li>
+        <li style="display: inline; padding: 10px;">
+          <a href="#" target="_blank">
+            <img src="./media/images_homepage/icons-4.png" alt=".." />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- footer end -->
+</div>
+<!-- HERE -->
+<footer class="container-fluid">
+  ✧ Developed and Maintained by : Coding Club IITG
+</footer>
+<!-- HERE -->
+</body>
+</html>

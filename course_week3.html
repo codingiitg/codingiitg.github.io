@@ -130,11 +130,11 @@
                 >
                   Week 1
 			  </button>
-                <button class="week-nav" onclick="window.location.href = './course_week2.html'" style="background-color: var(--global-blue_color-color); color:white;
-                ">
+                <button class="week-nav" onclick="window.location.href = './course_week2.html'">
                   Week 2
 				</button>
-                <button class="week-nav" onclick="window.location.href = './course_week3.html'">
+                <button class="week-nav" onclick="window.location.href = './course_week3.html'" style="background-color: var(--global-blue_color-color); color:white;
+                ">
                   Week 3
 				</button>
                 <button style="border-bottom: none;" class="week-nav" onclick="window.location.href = '#'">
@@ -148,7 +148,7 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">Week 2</th>
+                    <th scope="col">Week 3</th>
                     <th scope="col">Details</th>
                     <th scope="col">Task 1</th>
                     <th scope="col">Task 2</th>
@@ -162,14 +162,12 @@
                     <td>
                       At the end of this exercise, you will be able to:
                       <ul>
-                        <li>Generating an Express application using the express-generator</li>
-                        <li>Modify the Express application to support the REST API by adding routes
- </li>
+                        <li>Set up an Express server to handle basic authentication.</li>
                       </ul>
                     </td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/15MtdwnTSkefpe5EqvG7L-Ejqs10rT3HRHmQTa1gH_hQ/edit?usp=sharing">* Installing express-generator</a></td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/15MtdwnTSkefpe5EqvG7L-Ejqs10rT3HRHmQTa1gH_hQ/edit?usp=sharing">Scaffolding an Express Application</a></td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/15MtdwnTSkefpe5EqvG7L-Ejqs10rT3HRHmQTa1gH_hQ/edit?usp=sharing">Implementing a REST API</a></td>
+                    <td ><a target="_blank" href="https://docs.google.com/document/d/15MtdwnTSkefpe5EqvG7L-Ejqs10rT3HRHmQTa1gH_hQ/edit?usp=sharing">* What is User Authentication?</a></td>
+                    <td ><a target="_blank" href="https://docs.google.com/document/d/15MtdwnTSkefpe5EqvG7L-Ejqs10rT3HRHmQTa1gH_hQ/edit?usp=sharing">Setting up Basic Authentication</a></td>
+                    <td ><a href="#"></a></td>
                     <td ><a href="#"></a></td>
                   </tr>
                   <tr>
@@ -177,14 +175,14 @@
                     <td>
                       At the end of this exercise, you will be able to:
                       <ul>
-                        <li>Build ejs webpages for client view
+                        <li>Set up your Express application to send signed cookies.
 </li>
-                        <li>link ejs webpages with the Express server
+                        <li>Set up your Express application to parse the cookies in the header of the incoming request messages.
  </li>
                       </ul>
                     </td>
-                    <td ><a target="_blank" href="https://drive.google.com/file/d/1kXvI3JDgo5lss2YfELglEKsGpO95iKMP/view?usp=sharing">* ejs Tutorial</a></td>
-                    <td ><a href="#"></a></td>
+                    <td ><a href="#">* What are cookies?</a></td>
+                    <td ><a href="#">Using cookie-parser</a></td>
                     <td ><a href="#"></a></td>
                     <td ><a href="#"></a></td>
                   </tr>
@@ -194,46 +192,42 @@
 
                       At the end of this exercise, you will be able to:
                       <ul>
-                        <li>Download and Install MongoDB</li>
-                        <li>Start the server and interact with it using the Mongo REPL shell </li>
-                        <li>Avoid callback hell by using promises
-</li>
+                        <li>Set up your Express server to use Express sessions to track authenticated users
+                        </li>
+                        <li>Enable clients to access secure resources on the server after authentication.
+                        </li>
                       </ul>
                     </td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/1-XSyTzqW3shfxi1Z2cKXpUT3vCJJczm6TM2_mYCdv3E/edit?usp=sharing">* NoSQL Databases</a></td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/1-XSyTzqW3shfxi1Z2cKXpUT3vCJJczm6TM2_mYCdv3E/edit?usp=sharing" >Introduction to MongoDB</a></td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/1-XSyTzqW3shfxi1Z2cKXpUT3vCJJczm6TM2_mYCdv3E/edit?usp=sharing">Callback Hell and Promises</a></td>
-                    <td ><a target="_blank" href="https://docs.google.com/document/d/1-XSyTzqW3shfxi1Z2cKXpUT3vCJJczm6TM2_mYCdv3E/edit?usp=sharing">Using Promises</a></td>
+                    <td ><a href="#">* What are sessions?</a></td>
+                    <td ><a href="#" >Installing express-session</a></td>
+                    <td ><a href="#">Using express-session</a></td>
+                    <td ><a href="#">User Model and User Authentication</a></td>
                   </tr>
                   <tr>
                     <th scope="row">Day 4</th>
                     <td>
 
                       At the end of this exercise, you will be able to:
-                      <ul><li>Install Mongoose ODM and connect to a MongoDB Server
+                      <ul><li>Use JSON web tokens for token-based user authentication
+
 </li>
-                        <li>Create Mongoose Schemas
+                        <li>Use Passport module together with passport-local and passport-local-mongoose for setting up local authentication within your server.
 </li>
-<li>Perform Database operations with Mongoose Methods</li></ul>
+</ul>
 
                       </td>
-                      <td ><a target="_blank" href="https://docs.google.com/document/d/1DD5_Xo_NH4Zm3rPojx11gPshQ5PxxbRLSryCOtNw6WE/edit?usp=sharing">* Installing Mongoose</a></td>
-                      <td ><a target="_blank" href="https://docs.google.com/document/d/1DD5_Xo_NH4Zm3rPojx11gPshQ5PxxbRLSryCOtNw6WE/edit?usp=sharing" >Implementing a Node Application</a></td>
-                      <td ><a target="_blank" href="https://docs.google.com/document/d/1DD5_Xo_NH4Zm3rPojx11gPshQ5PxxbRLSryCOtNw6WE/edit?usp=sharing">Mongoose operations</a></td>
-                      <td ><a target="_blank" href="https://docs.google.com/document/d/1DD5_Xo_NH4Zm3rPojx11gPshQ5PxxbRLSryCOtNw6WE/edit?usp=sharing">Adding sub-documents via Mongoose Population</a></td>
+                      <td ><a href="#">* What is token-based authentication?</a></td>
+                      <td ><a href="#" >Installing passport-jwt and jsonwebtoken Node Modules</a></td>
+                      <td ><a href="#">Supporting JSON Web Tokens and Verification</a></td>
+                      <td ><a href="#">Controlling Routes with Authentication</a></td>
                     </tr>
                     <tr>
                       <th scope="row">Day 5</th>
                       <td>
-                        At the end of this exercise, you will be able to:
-                        <ul>
-                          <li>Develop a full-fledged REST API server with Express, MongoDB and Mongoose
-</li>
-                          <li>Serve up various REST API endpoints together with interaction with the MongoDB server.
-</li>
+                        Throwback: Mongoose Population
                         </ul>
                       </td>
-                      <td ><a target="_blank" href="https://docs.google.com/document/d/1SmOnQTioacKxFCzU264Ip90bbyB9M7F9WEqlhbD_Tr8/edit?usp=sharing">* REST API with Express, MongoDB and Mongoose</a></td>
+                      <td ><a href="#"></a></td>
                       <td ><a href="#" ></a></td>
                       <td ><a href="#"></a></td>
                       <td ><a href="#"></a></td>
@@ -243,8 +237,8 @@
                       <td>
                        Project Assignment and Weekly Quiz
                      </td>
-                     <td ><a target="_blank" href="https://drive.google.com/file/d/17bF64XgvZm6ir_zecRMJ9I0MWSZx_kmR/view?usp=sharing">* Project Assignment 2</a></td>
-                     <td ><a target="_blank" href="https://forms.gle/ut6QduUdozxCcyk38" >* Weekly Quiz 2</a></td>
+                     <td ><a href="#">* Project Assignment 3</a></td>
+                     <td ><a href="#" >* Weekly Quiz 3</a></td>
                      <td ><a href="#"></a></td>
                      <td ><a href="#"></a></td>
                    </tr>
@@ -253,7 +247,7 @@
                     <td>
                      Cover Up Day
                    </td>
-                   <td ><a target="_blank" href="https://forms.gle/hSHrxnSFXyLVRXre6">* Feedback Form</a></td>
+                   <td ><a href="#">* Feedback Form</a></td>
                    <td ><a href="#" ></a></td>
                    <td ><a href="#"></a></td>
                    <td ><a href="#"></a></td>

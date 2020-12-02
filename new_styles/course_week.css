@@ -156,7 +156,9 @@ thead {
 /*courses end*/
 
 /*@media*/
-
+#three{
+  margin: 5%;
+}
 @media (max-width: 435px) {
   .inner-wrapper {
     margin-left: 0px;
